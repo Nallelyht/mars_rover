@@ -1,10 +1,14 @@
 // Rover Object Goes Here
-
+const rover = {
+  direction: 'N',
+}
+console.log(rover);
 // ======================
 
 // ======================
 function turnLeft(rover){
   console.log("turnLeft was called!");
+  console.log(rover);
 }
 
 function turnRight(rover){
@@ -14,3 +18,4 @@ function turnRight(rover){
 function moveForward(rover){
   console.log("moveForward was called")
 }
+
